@@ -1,0 +1,24 @@
+ASSIGNING ELEMENTS TO DIFFERENT LISTS :
+
+list_1=[1,2,3,4,5,6]
+list_2=["morning","afternoon","evening","night"]
+list_3=[2.34,6.19,5.8]
+list_4=[35,0.97,"hello",True]
+list_5=["mice",[4,7,2],['s']]             #nested lists
+
+
+ACCESSING ELEMENTS FROM A TUPLE :
+
+tup_1=(1,2,3,4,5,6)
+tup_1[1:]
+tup_1[::1]
+tup_1[2:5]
+
+
+DELETING DIFFERENT DICTIONARY ELEMENTS : 
+
+dict = { "brand": "BMW" , "model" : "X5", "year" : "2017"}
+del dict["model"] 
+#this is to delete only one key-value pair
+del dict
+#this is to delete the complete dictionary
